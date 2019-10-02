@@ -1,6 +1,6 @@
 (function (exports) {
 
-    function NoteList(_list) {
+    function NoteList() {
         this._list = [];
     }
     NoteList.prototype.displayNotes = function () {
@@ -9,8 +9,7 @@
 
     NoteList.prototype.addNote = function (text) {
         this._list.push(text);
-        
+
     }
     exports.NoteList = NoteList;
 })(this);
-
