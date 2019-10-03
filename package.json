@@ -1,0 +1,25 @@
+{
+  "name": "note-app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "note-controller.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canvasbag989/note-app2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Canvasbag989/note-app2/issues"
+  },
+  "homepage": "https://github.com/Canvasbag989/note-app2#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

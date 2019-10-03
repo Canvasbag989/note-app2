@@ -1,6 +1,6 @@
 function testNoteInstantiatesWithText(text) {
   var note = new Note(text);
-  assert.isTrue(note.text() === text);
+  return assert.isTrue(note.text() === text);
 };
 
-testNoteInstantiatesWithText();
+console.log(testNoteInstantiatesWithText());
